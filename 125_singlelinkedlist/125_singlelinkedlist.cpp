@@ -178,9 +178,16 @@ int main() {
                 break;
             case 5:
                 break;
+            default:
+                cout << "Pilihan tidak ada" << endl;
+                break;
             }
         }
-    }
+        catch (exception e)
+        {
+            cout << "Terjadi kesalahan" << endl;
+        }
+    } while (pilihan != 5);
 }
 
 
